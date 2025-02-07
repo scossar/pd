@@ -1,0 +1,9 @@
+#N canvas 1497 92 1259 1235 16;
+#X obj 70 58 inlet weights;
+#X obj 196 58 inlet bias;
+#X obj 312 57 inlet ft_one;
+#X obj 437 57 inlet ft_two;
+#X obj 565 57 inlet ft_three;
+#X obj 714 58 inlet ft_four;
+#X obj 852 57 inlet bang;
+#X obj 182 240 list;

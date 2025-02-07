@@ -1,0 +1,15 @@
+#N canvas 1495 586 982 606 16;
+#X obj 136 43 bang~;
+#X obj 135 84 s \$0_update_params;
+#X obj 56 330 r \$0_update_params;
+#X obj 261 333 snapshot~;
+#X obj 264 381 print math_test;
+#X obj 269 284 *~;
+#X obj 252 198 sig~ 1.5;
+#X obj 351 200 sig~ -0.1;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 5 0 3 0;
+#X connect 6 0 5 0;
+#X connect 7 0 5 1;

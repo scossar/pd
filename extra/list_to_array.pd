@@ -1,0 +1,15 @@
+#N canvas 1638 246 600 571 16;
+#X obj 64 40 inlet list;
+#X obj 221 40 inlet name;
+#X obj 71 195 list length;
+#X obj 71 148 t l l, f 20;
+#X obj 74 305 array size;
+#X obj 229 305 array set;
+#X obj 221 87 t s s, f 10;
+#X connect 0 0 3 0;
+#X connect 1 0 6 0;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 3 1 5 0;
+#X connect 6 0 4 1;
+#X connect 6 1 5 2;

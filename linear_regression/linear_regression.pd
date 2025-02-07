@@ -1,0 +1,36 @@
+Pd 0.55-2 on Linux x86_64
+--------------------------------------------------------------------------------
+------------------ done with main ----------------------
+connection from 'pd' to 'pd-gui' on 127.0.0.1:48906
+Tk 8.6.16
+detected font: courier
+using font: JetBrainsMono Nerd Font Mono bold
+Loading plugin: /usr/local/lib/pd/tcl/pd_deken.tcl
+[deken] Platform detected: Linux-amd64-float32
+Loading plugin: /usr/local/lib/pd/tcl/pd_docsdir.tcl
+Pd documents directory: /home/scossar/Documents/Pd
+
+--------------------------------------------------------------------
+:: Cyclone 0.9-0; Released July 2nd 2024
+:: License: BSD-3-Clause (aka Revised BSD License)
+:: Copyright © 2003-2024 - Krzysztof Czaja, Hans-Christoph Steiner,
+:: Fred Jan Kraan, Alexandre Porres, Derek Kwan, Matt Barber
+:: and others.
+:: -----------------------------------------------------------------
+:: Cyclone 0.9-0 needs at least Pd 0.55-0
+::   (you have 0.55-2, you're good!)
+:: Loading the cyclone library loaded non alphanumeric objects,
+:: which are: \[!-\], \[!-~\], \[!/\], \[!/~\], \[!=~\], \[%~\], \[+=~\],
+:: \[<=~\], \[<~\], \[==~\], \[>=~\] and \[>~\]
+:: NOTE: Loading this binary did not load the path
+:: you need to add 'cyclone' to the "preferences=>path"
+:: or use \[declare -path cyclone\] (this guarantees search priority)
+--------------------------------------------------------------------
+-------------------------------------------------------------------
+- NOTE: Loading this binary did install an object browser
+plugin for Cyclone objects when right clicking on a canvas.
+-------------------------------------------------------------------
+
+Loading plugin: /home/scossar/Documents/Pd/externals/cyclone/browser-cyclone.tcl
+priority 6 scheduling failed; running at normal priority
+the Pd window filtered 34 lines

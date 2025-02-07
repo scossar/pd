@@ -1,0 +1,4 @@
+#N canvas 1688 647 600 571 16;
+#X obj 37 37 inlet;
+#X obj 37 65 print from_abstractions;
+#X connect 0 0 1 0;
